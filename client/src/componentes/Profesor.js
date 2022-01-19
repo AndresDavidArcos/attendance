@@ -30,7 +30,7 @@ const [nuevaMatricula, setNuevaMatricula] = useState({
 });
 useEffect(()=>{
 obtenerDatos(cedulaProfesor);
-}, []);
+}, [asistencia]);
 
 const obtenerDatos = async(id)=>{
     //cargando sede y id profesor
